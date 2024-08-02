@@ -1,0 +1,551 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    max-width :1200px;
+    margin: 0 auto;
+     
+
+}
+header{
+    background-image: url(stool.JPG);
+    color: white;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+header button{
+    margin-top: 20px;
+    background-color: rgb(233, 233, 60);
+    border: 0 solid ;
+    padding: 5px 10px;
+    border-color: white;
+}
+.about .container{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items:center ;
+    margin-top:25px;
+    padding: 0 12em;
+    color: white;
+}
+.fit{
+    border: 1px solid;
+    border-color: white;
+    width: 80px;
+    height: 70px;
+    font-size: 10px;
+    padding-top:12px ;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fit h2{
+    color: yellow;
+    font-size: 15px;
+}
+.mast p{
+    color: yellow;
+    font-size: 8px;
+}
+.food button{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(71, 69, 69);
+    color: white;
+
+}
+.bard .container{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 50px;
+    
+}
+.tern{
+    background-image: url(IMG_8487.JPG);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 40vh;
+    padding: 10px 10px;
+}
+.tern p{
+    margin-top: 10em;
+}
+.tern1{
+    background-image: url(blu.JPG);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 40vh;
+    padding: 10px 10px;
+}
+.tern1 p{
+    margin-top: 10em;
+}
+.tern2{
+    background-image: url(flower.JPG);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 40vh;
+    padding: 10px 10px;
+}
+.tern2 p{
+    margin-top: 10em;
+}
+.tern3{
+    background-image: url(gold.JPG);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 40vh;
+    padding: 10px 10px;
+}
+.tern3 p{
+    margin-top: 10em;
+}
+.our{
+    padding: 50px 0;
+    color: white;
+}
+.recom p{
+    color: yellow;
+    font-size: 10px;
+}
+.recom{
+    margin:  0 6em;
+}
+ .int{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10px ;
+
+    
+}
+.your{
+    background-image: url(gol.JPG);
+    color: white;
+    background-size:cover ;
+    background-position: center;
+    height: 50vh;
+    padding:50px ;   
+}
+.your .visit{
+    color: yellow;
+    font-size: 10px;
+}
+.your .enbark{
+    margin-top: 20px;
+}
+.your button{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    width:120px;
+    height: 30px;
+    border: 0 solid;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.goo .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.goo img{
+    width: 40px;
+    height: 20px;
+   }
+
+.brod{
+    padding:10px  ;
+}
+
+.design{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+
+}
+.design .folio{
+    color:yellow
+}
+
+.piccs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    padding: 10px;
+   
+}
+.piccs img{
+    width: 380px;
+    height: 250px;
+}
+.great .container{
+    display: flex;
+    justify-content: space-between;
+    padding:1em 5em;
+}
+
+.great img{
+    width:550px ;
+    height: 60vh;
+
+}
+.text img{
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+}
+.text{
+    background-image: url(blk.png);
+
+    padding-top: 6em;
+    color: white;
+    padding-left: 20px;
+    
+}
+  
+
+.what{
+    padding:10px 10px ;
+    color: white;
+}
+ .mony{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.mony p{
+    color: yellow;
+    font-size: 10px;
+}
+.tests {
+    display: flex;
+    justify-content: space-between
+    
+    
+}
+.tests i{
+    color: yellow;
+}
+.test img{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.test{
+    border: 0 solid;
+    width: 250px;
+    height: 25vh;
+    background-color:rgb(58, 57, 57) ;
+    padding:10px 10px;
+    /* margin: 2em 10em; */
+    
+
+}
+.age .container{
+    display: flex;
+    justify-content:space-between ;
+    padding: 1em 11em;
+}
+.for{
+    background-image: url(blk.png);
+    padding-top: 6em;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    
+    
+}
+.for button{
+    border-radius: 10px;
+    width: 140px;
+    height: 25px;
+    margin-top: 10px;
+}
+.age img{
+    width: 550px;
+    height: 60vh;
+}
+.alnumb{
+    display: flex;
+    justify-content: space-between;
+    padding:1em 15em ;
+    color: white;
+}
+.numb h4{
+    color: yellow;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.last{
+    background-image:url(IMG_8568.JPG) ;
+    background-repeat: no-repeat;
+    color: white;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    height: 30vh;
+    padding: 5em;
+    
+}
+.last p{
+    color: yellow;
+    font-size: 6px;
+}
+.last button{
+    background-color: yellow;
+    border: 0 solid;
+    border-radius: 10px;
+    width: 100px;
+}
+@media (min-width: 1107px) {
+    .piccs img {
+        width: 330px;
+    }
+    .tests {
+        margin: 1em 15em;
+    }
+    .age img {
+        width: 350px; 
+         margin-right: 50px; 
+    }
+}
+
+@media (max-width:991px){
+    .piccs img{
+        width: 300px;
+    }
+    .great img{
+        width: 430px;
+    }
+    .text img{
+        width: 50px;
+    }
+    .tests{
+        margin: 1em 12em;
+    }
+    .age img{
+        width: 430px;
+    }
+}
+@media (max-width:767px){
+    .about .container{
+        padding: 0 6em ;
+        font-size: 13px;
+    }
+    .bard .container{
+        padding: 20px 20px;
+        gap: 1em;
+    }
+    .int{
+     padding:10px 10px ;
+     font-size: 10px;
+}
+    .piccs{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      padding: 1em 3.5em;
+    }
+    .great img{
+        width: 380px;
+        height: 25vh;
+        
+    }
+    .text{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    .text img{
+        width: 20px;
+    }
+
+    .tests{
+        margin: 1em 5em; 
+    }
+    .age img{
+        width: 380px;
+    }
+    .alnumb{
+        padding: 1em em;
+        font-size: 13px;
+    }
+}
+@media (max-width:576px) {
+    .about .container{
+        font-size: 10px;
+    }
+    .food button{
+        font-size: 10px;
+        border-radius: 8px;
+    }
+    .piccs img{
+        width:200px;
+        height: 20vh;
+    }
+    .great img{
+        width: 220px;
+        height:250px ;
+    }
+  
+    
+    }
+    .text img{
+        width: 30px;
+        height: 25px;
+    }
+    .tests{
+        margin: 1em 1em;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+  
+    }
+    .for{
+        font-size: 12px;
+        padding:10px 10px ;
+    }
+    .for button{
+        width: 80px;
+        font-size: 8px;
+    }
+    .age img{
+        width: 220px;
+        height:250px ; 
+    }
+    .alnumb{
+        font-size:10px ;
+    }
+    .alnumb h4{
+        font-size: 10px;
+        padding-left: 8px;
+    }
+    @media (max-width: 350px){
+        .about .container{
+            font-size: 5px;
+        }
+        .fit{
+            width: 70px;
+            height: 60px;
+        }
+        .food button{
+            width: 70px;
+        }
+        .bard .container{
+            flex-direction: column;
+            padding-left: 80px;
+        }
+        .our{
+            font-size: 8px;
+            padding-top:10px ;
+        }
+        .int{
+            font-size: 4px;
+        }
+        .your .container{
+            font-size: 12px;
+        }
+        .your button{
+            width: 80px;
+            height: 20px;
+            font-size: 10px;
+            margin-top: 15px;
+        }
+        .design{
+            font-size: 10px;
+        }
+        .piccs{
+            grid-template-columns: repeat(1,1fr);
+
+        }
+        .great img{
+            width: 130px;
+            height: 20vh;
+        }
+        .text{
+           font-size: 6px; 
+        }
+        .text img{
+            width: 20px;
+            height:15px ;
+       
+        }
+       
+        .great .container{
+            padding-right: 10px;
+            padding: 1em 3em;
+
+        }
+        .what .container{
+            font-size: 10px;
+        }
+        .tests{
+             flex-direction: column;
+            font-size: 10px;
+            margin: 1em 3em;
+        
+          
+        }
+        .for{
+            font-size: 6px;
+        }
+        .age img{
+            width: 130px;
+             height: 20vh; 
+        }
+        .age .container{
+            padding-right: 10px;
+            padding: 1em 3em;
+        }
+
+        .alnumb{
+            font-size: 6px;
+        }
+        .alnumb h4{
+            font-size: 8px;
+            margin-left: 3px;
+        }
+        .alnumb p{
+            font-size: 8px;
+        }
+
+        .last .container{
+            font-size: 10px;
+        }
+        
+    }
+    
+    
+
+
